@@ -22,7 +22,7 @@ contract Loan {
 
     Crypto token;
     uint256 collateralPerPayment;
-
+    /*taking input for initial condition before deployment*/
     constructor(
         address payable _lender,
         address _borrower,
